@@ -1,0 +1,35 @@
+.inputWrapper {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.input {
+	padding: 8px 12px;
+}
+
+.input::placeholder {
+	color: #b3b3b3;
+}
+
+.label {
+	font-size: 16px;
+	color: #b3b3b3;
+}
+
+.leftSide {
+	order: -1;
+}
+
+.rightSide {
+	order: 2;
+}
+
+.small {
+	width: 16px;
+	height: 16px;
+}
+
+.default {
+	width: 100%;
+}
